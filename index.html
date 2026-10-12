@@ -1,0 +1,8 @@
+import os
+
+text = "Hello! This is a printer test."
+
+with open("print_test.txt", "w") as file:
+    file.write(text)
+
+os.startfile("print_test.txt", "print")
